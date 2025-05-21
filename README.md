@@ -1,2 +1,2 @@
 # Hyprland
-Some hyprland configuration stuff
+Some hyprland configuration stuff I'm putting together for my dual-booted linux desktop.
