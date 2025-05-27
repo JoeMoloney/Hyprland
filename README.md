@@ -1,6 +1,6 @@
 # Hyprland
 Some hyprland configuration stuff I'm messing around with to learn the Manjaro arch-based linux distro better.<br/>
-I will eventually put together installation scripts for installing and configuring Hyprland onto Manjaro.
+I will eventually put together installation scripts for automatically installing and configuring Hyprland onto Manjaro once I'm more familiar with the process and the distro.
 
 # Inspiration
 Some inspiration that got me started on this side tangent:<br/>
