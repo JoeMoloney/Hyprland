@@ -36,3 +36,5 @@ Authentication
 Useful Terminal Commands:
     pstree
         Shows process tree detailing Child & Their Parent Processes
+    hyprctl clients
+        show windows and their data currently managed by hyprland
