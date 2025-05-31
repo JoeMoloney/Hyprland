@@ -26,12 +26,17 @@ Notification Daemon
             GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
             Could not connect to CC service. Will wait for connection...
 
-App Launcher (Walker):
+App Launcher (Walker)
     Installed yay 
     Needed to install base-devel via 'pamac install base-devel git'
     Install Walker via 'yay -S walker-bin'
     Set up in Hyprland to exec-once:
         exec-once=walker --gapplication-service
+
+Authentication
+    Need hyprpolkitagent for authenticating when using package manager gui
+        sudo pacman -S hyprpolkitagent
+        Enable Service: 'systemctl --user enable --now hyprpolkitagent.service'
 
 Useful Terminal Commands:
     pstree
