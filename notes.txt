@@ -38,3 +38,6 @@ Useful Terminal Commands:
         Shows process tree detailing Child & Their Parent Processes
     hyprctl clients
         show windows and their data currently managed by hyprland
+
+TODO
+    Set up popup for when volume is being adjusted
