@@ -32,3 +32,7 @@ App Launcher (Walker):
     Install Walker via 'yay -S walker-bin'
     Set up in Hyprland to exec-once:
         exec-once=walker --gapplication-service
+
+Handy To Know:
+    pstree
+        Shows process tree detailing Child & Their Parent Processes
