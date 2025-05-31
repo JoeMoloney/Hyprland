@@ -1,6 +1,7 @@
 ===Some Notes Of Commands Used & Configurations Changed Whilst I Build This Out===
 
-ln ~/.config/hypr/hyprland.conf ~/GitRepositories/Hyprland/hyprland.conf
-[Creating a symlink/hardlink so changes in either file are reflected in one another]
-
 Manjaro Package Manager to install nvidia-dkms modules
+
+[Hardlinks from actual config files to repo files (some hypr directories aren't created by default)]
+sudo ln ~/.config/hypr/hyprland.conf ~/GitRepositories/Hyprland/hyprland.conf
+sudo ln ~/.config/hypr/keybindings/customBindings.conf ~/GitRepositories/Hyprland/keybindings/customBindings.conf
