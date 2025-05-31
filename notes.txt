@@ -9,27 +9,21 @@ sudo ln ~/.config/hypr/monitors/monitors.conf ~/GitRepositories/Hyprland/monitor
 sudo ln ~/.config/hypr/windows/windows.conf ~/GitRepositories/Hyprland/windows/windows.conf
 
 Notification Daemon
-    Original: xfec4-notify
-    New: swaync
-
     Disable xfce4-notify
         sudo mv org.xfce.xfce4-notifyd.Notifications.service org.xfce.xfce4-notifyd.Notifications.service.disabled
         sudo mv org.xfce.xfce4-notifyd.Notifyd.service org.xfce.xfce4-notifyd.Notifyd.service.disabled
-    
-    TODO:
-        swaync from terminal throws: 
-            GTKLAYERSHELL IS NOT SUPPORTED!
-            Swaync only works on Wayland!
-            If running wayland session, try running:
-	        GDK_BACKEND=wayland swaync
-        swaync-client -t throws:
-            GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
-            Could not connect to CC service. Will wait for connection...
+    Install swaync
+        sudo pacman -S swaync
 
 App Launcher (Walker)
-    Installed yay 
-    Needed to install base-devel via 'pamac install base-devel git'
-    Install Walker via 'yay -S walker-bin'
+    Need to install base-devel for fakeroot environment for yay
+    Install base-devel git
+        sudo pacman -S base-devel git
+    Install yay
+        sudo pacman -S yay
+    Need to use AUR repository for installing walker via yay
+    Install walker
+        yay -S walker-bin
     Set up in Hyprland to exec-once:
         exec-once=walker --gapplication-service
 
