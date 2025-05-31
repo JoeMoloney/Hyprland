@@ -1,0 +1,5 @@
+===Some Notes Of Commands Used Whilst I Build This Out===
+
+ln -s ~/.config/hypr/hyprland.conf ~/GitRepositories/Hyprland/hyprland.conf
+[Creating a symlink/softlink so changes in either file are reflected in one another]
+
