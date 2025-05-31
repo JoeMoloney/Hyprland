@@ -5,3 +5,4 @@ Manjaro Package Manager to install nvidia-dkms modules
 [Hardlinks from actual config files to repo files (some hypr directories aren't created by default)]
 sudo ln ~/.config/hypr/hyprland.conf ~/GitRepositories/Hyprland/hyprland.conf
 sudo ln ~/.config/hypr/keybindings/customBindings.conf ~/GitRepositories/Hyprland/keybindings/customBindings.conf
+sudo ln ~/.config/hypr/monitors/monitors.conf ~/GitRepositories/Hyprland/monitors/monitors.conf
