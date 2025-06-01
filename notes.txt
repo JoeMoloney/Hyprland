@@ -8,6 +8,7 @@ sudo ln ~/.config/hypr/hyprland.conf ~/GitRepositories/Hyprland/hyprland.conf
 sudo ln ~/.config/hypr/keybindings/customBindings.conf ~/GitRepositories/Hyprland/keybindings/customBindings.conf
 sudo ln ~/.config/hypr/monitors/monitors.conf ~/GitRepositories/Hyprland/monitors/monitors.conf
 sudo ln ~/.config/hypr/windows/windows.conf ~/GitRepositories/Hyprland/windows/windows.conf
+sudo ln ~/.config/hypr/keybindings/volumeBindings.conf ~/GitRepositories/Hyprland/keybindings/volumeBindings.conf
 
 Notification Daemon
     Disable xfce4-notify
@@ -33,11 +34,21 @@ Authentication
         sudo pacman -S hyprpolkitagent
         Enable Service: 'systemctl --user enable --now hyprpolkitagent.service'
 
+Volume Popup
+    not part of swaync
+    using swayosd
+        sudo pacman -S swayosd
+    enable swayosd service
+        sudo systemctl enable --now swayosd-libinput-backend.service
+    enable swayosd frontend
+        add exec entry to hyprland.conf
+
 Useful Terminal Commands:
     pstree
         Shows process tree detailing Child & Their Parent Processes
     hyprctl clients
         show windows and their data currently managed by hyprland
 
-TODO
-    Set up popup for when volume is being adjusted
+G915 x Lightspeed
+    libratbagd
+    playerctl
