@@ -59,6 +59,8 @@ Useful Terminal Commands:
         Shows process tree detailing Child & Their Parent Processes
     hyprctl clients
         show windows and their data currently managed by hyprland
+    waybar (reload the service to see styling rule changes)
+        systemctl --user reload waybar
 
 G915 x Lightspeed
     libratbagd
