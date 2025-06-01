@@ -43,6 +43,11 @@ Volume Popup
     enable swayosd frontend
         add exec entry to hyprland.conf
 
+Waybar
+    sudo pacman -S waybar
+    enable uwsm systemd service
+        systemctl --user enable --now waybar.service
+
 Useful Terminal Commands:
     pstree
         Shows process tree detailing Child & Their Parent Processes
