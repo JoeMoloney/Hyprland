@@ -25,6 +25,8 @@ Some inspiration that got me started on this side tangent:<br>
 4. [HyDE](https://github.com/HyDE-Project/HyDE)<br><br>
 ![image](https://github.com/user-attachments/assets/53667cca-a045-4c8a-8cd7-391faa600af3)
 
+# Screenshots
+Soon(TM)
 
 # Some neofetch info
 - OS: Manjaro Linux x86_64<br>
