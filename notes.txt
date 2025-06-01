@@ -47,6 +47,9 @@ Waybar
     sudo pacman -S waybar
     enable uwsm systemd service
         systemctl --user enable --now waybar.service
+    Link waybar styling config
+        sudo ln ~/.config/waybar/config.jsonc ~/GitRepositories/Hyprland/waybar/config.jsonc
+        sudo ln ~/.config/waybar/style.css ~/GitRepositories/Hyprland/waybar/style.css
 
 Useful Terminal Commands:
     pstree
