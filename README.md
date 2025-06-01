@@ -11,6 +11,9 @@ I will be gutting and changing things as this develops.
   <a href="https://readme-typing-svg.demolab.com/demo/"><kbd> <br> Fancy ReadMe Text <br> </kbd></a>
 </div><br>
 
+# Screenshots
+Soon(TM)
+
 # Inspiration
 Some inspiration that got me started on this side tangent:<br>
 1. [JaKooLit](https://github.com/JaKooLit/Hyprland-Dots)<br><br>
@@ -24,9 +27,6 @@ Some inspiration that got me started on this side tangent:<br>
 
 4. [HyDE](https://github.com/HyDE-Project/HyDE)<br><br>
 ![image](https://github.com/user-attachments/assets/53667cca-a045-4c8a-8cd7-391faa600af3)
-
-# Screenshots
-Soon(TM)
 
 # Some neofetch info
 - OS: Manjaro Linux x86_64<br>
