@@ -53,6 +53,48 @@ Waybar
         Hard link them
             sudo ln ~/.config/waybar/config.jsonc ~/GitRepositories/Hyprland/waybar/config.jsonc
             sudo ln ~/.config/waybar/style.css ~/GitRepositories/Hyprland/waybar/style.css
+    Prebuilt waybar (sejjy/mechabar)
+        git clone -b sway-animated https://github.com/sejjy/mechabar.git
+        cd mechabar
+        ./install.sh
+
+Activate Linux widget (TODO: Better automate this process in a script)
+    Needs 'eww'
+        needs rustc
+        needs cargo
+            reccomended to install using rustup
+                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+            restart terminal & check using 'rustup --version'
+            update rustup toolchain with 'rustup update'
+
+            install packages using 'cargo install [package]'
+        requires dynamic libraries (preferably -devel variants)
+            gtk3 (libgdk-3, libgtk-3)
+            gtk-layer-shell (only on Wayland)
+            pango (libpango)
+            gdk-pixbuf2 (libgdk_pixbuf-2)
+            libdbusmenu-gtk3
+            cairo (libcairo, libcairo-gobject)
+            glib2 (libgio, libglib-2, libgobject-2)
+            gcc-libs (libgcc)
+            glibc
+            sudo pacman -S gtk3 pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
+        clone eww repo
+            git clone https://github.com/elkowar/eww
+            cd eww
+        build eww
+            cargo build --release --no-default-features --features wayland
+
+
+Hyprland Plugin Manager + Official Plugins
+    hyprpm reload
+    hyprpm update
+    hyprpm add https://hyprwm/hyprland-plugins
+    hyprpm enable hyprland-plugins
+
+Dynamic Cursors (Not used - would like to scan source code for malicious code)
+    hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+    hyprpm enable dynamic-cursors
 
 Useful Terminal Commands:
     pstree
